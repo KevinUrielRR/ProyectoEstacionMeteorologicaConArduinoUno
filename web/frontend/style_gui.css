@@ -1,0 +1,93 @@
+
+body{
+width:720px;
+height:1280px;
+background-color: #aaaaaa;
+
+}
+#header{
+width:100%; height:5%; background-color:blue; color: white; text-size:20px; text-decoration: underline overline;
+}
+iframe{
+width:35%;
+height:25%;
+position:absolute;
+top:100%;
+
+left:100%;
+transform: translate(-107%,-107%);
+}
+
+#div0{
+top:110px;
+position:absolute;
+width:100%;
+height:100%;
+
+}
+button{
+width:100px;
+height:100px;
+position:absolute;
+left:90%;
+border:10px #00aaff double;
+background: radial-gradient(#00aaff,#005577);
+border-radius:100%;
+
+}
+div{
+
+width:47%;
+height:19%;
+border:1px black solid;
+position: absolute;
+
+}
+
+
+#div1
+{
+top:1%;
+left:10px;
+background: linear-gradient(#ff0000,#00aaff);
+}
+#div2
+{
+
+background: linear-gradient(#0000ff,#00ff00,#00ff00);
+top:1%;
+left:50%;
+}
+
+#div3{
+background: linear-gradient(#aa7700,#aa7700,#00aaff);
+top:21%;
+left:10px;
+
+}
+
+#div4{
+background: linear-gradient(#ffffff,#ffffff,#00ffff);
+top:21%;
+left: 50%;
+}
+
+#div5{
+
+background: linear-gradient(45deg,#aaaa00,#ffff00,#ffffaa);
+top: 41%;
+left:  10px;
+}
+
+#div6{
+background: radial-gradient(darkblue,gray);
+top:41%;
+left:50%;
+
+}
+
+#div7{
+background: radial-gradient(darkgray,gray);
+top:61%;
+left:10px;
+}
