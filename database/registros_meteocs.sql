@@ -17,6 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
+CREATE DATABASE registros_meteocs;
+
+USE DATABASE registros_meteocs;
+
 --
 -- Base de datos: `registros_meteocs`
 --
@@ -26,9 +30,6 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `calidad_aire`
 --
-CREATE DATABASE registros_meteocs;
-
-USE DATABASE registros_meteocs;
 
 CREATE TABLE `calidad_aire` (
   `ppm` int(11) NOT NULL,
@@ -84,9 +85,9 @@ CREATE TABLE `humedad_superficie` (
 -- Volcado de datos para la tabla `humedad_superficie`
 --
 
-INSERT INTO `humedad_superficie` (`porcentaje`, `fecha`, `hora`) VALUES
-(5, '2026-10-04', '19:10:37'),
-(5, '2026-10-04', '19:10:42');
+-- INSERT INTO `humedad_superficie` (`porcentaje`, `fecha`, `hora`) VALUES
+-- (5, '2026-10-04', '19:10:37'),
+-- (5, '2026-10-04', '19:10:42');
 
 -- --------------------------------------------------------
 
@@ -104,9 +105,9 @@ CREATE TABLE `luz` (
 -- Volcado de datos para la tabla `luz`
 --
 
-INSERT INTO `luz` (`cantidad`, `fecha`, `hora`) VALUES
-(3, '2026-10-04', '19:10:37'),
-(3, '2026-10-04', '19:10:42');
+-- INSERT INTO `luz` (`cantidad`, `fecha`, `hora`) VALUES
+-- (3, '2026-10-04', '19:10:37'),
+-- (3, '2026-10-04', '19:10:42');
 
 -- --------------------------------------------------------
 
@@ -136,9 +137,9 @@ CREATE TABLE `temperatura` (
 -- Volcado de datos para la tabla `temperatura`
 --
 
-INSERT INTO `temperatura` (`grados`, `fecha`, `hora`) VALUES
-(1, '2026-10-04', '19:10:37'),
-(1, '2026-10-04', '19:10:42');
+-- INSERT INTO `temperatura` (`grados`, `fecha`, `hora`) VALUES
+-- (1, '2026-10-04', '19:10:37'),
+-- (1, '2026-10-04', '19:10:42');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
