@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 
 CREATE DATABASE registros_meteocs;
 
-USE DATABASE registros_meteocs;
+USE registros_meteocs;
 
 --
 -- Base de datos: `registros_meteocs`
