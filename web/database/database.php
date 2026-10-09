@@ -1,4 +1,5 @@
 <?php
+
 $host = 'localhost:3306';
 $database = 'registros_meteocs';
 $user = 'root';

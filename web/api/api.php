@@ -1,6 +1,13 @@
 <?php
-include "../database/database.php";
 error_reporting(0);
+$db_on = fopen('../database/database_on.ini','r');
+$database_on = fread($db_on,128);
+
+if ($database_on=="true")
+{
+include "../database/database.php";
+} else { echo "no hay configuracion"; }
+
 //$a = $_GET['a'];
 //$b = $_GET['b'];
 
