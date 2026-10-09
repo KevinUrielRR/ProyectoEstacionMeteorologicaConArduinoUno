@@ -1,2 +1,0 @@
-
-buttonk.addEventListener("click",function (){if(!(div00.style.top=="25%")){ div00.style.top = "25%";}else{div00.style.top = "-50%";} });

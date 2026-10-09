@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<button id="buttonk">=</button>
+<button id="menu_button">=</button>
 <div id="div0">
 <div id="div1"><h1>Temperatura<iframe src="../api/datos_recibidos/temperatura.php"></iframe></div></h1><div id="div2"><h1>Humedad</h1><iframe src="../api/datos_recibidos/humedad_ambiente.php"></iframe></div>
 <div id="div3"><h1>Humedad del suelo</h1><iframe src="../api/datos_recibidos/humedad_superficie.php"></iframe></div><div id="div4"><h1>calidad del aire</h1><iframe src="../api/datos_recibidos/aire.php"></iframe></div>
@@ -30,8 +30,8 @@
 <link rel="stylesheet" href="tag_body.css"></link>
 
 <script type="text/javascript" src="../backend/script_var.js"></script>
-<script type="text/javascript" src="../backend/script_object_div00.js"></script>
-<script type="text/javascript" src="../backend/script_event_buttonk.js"></script>
+<script type="text/javascript" src="../backend/script_object_menu.js"></script>
+<script type="text/javascript" src="../backend/script_eventos.js"></script>
 
 
 </body>
