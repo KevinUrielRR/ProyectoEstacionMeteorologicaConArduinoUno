@@ -14,6 +14,11 @@
 </div>
 
 
+<!--
+<div id="menu">
+<button>tema</button><button>configuracion</button>
+</div>
+-->
 
 <link rel="stylesheet" href="id_div0.css"></link>
 <link rel="stylesheet" href="id_div1.css"></link>
