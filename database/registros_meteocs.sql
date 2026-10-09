@@ -65,9 +65,9 @@ CREATE TABLE `humedad_ambiente` (
 -- Volcado de datos para la tabla `humedad_ambiente`
 --
 
-INSERT INTO `humedad_ambiente` (`porcentaje`, `fecha`, `hora`) VALUES
-(4, '2026-10-04', '19:10:37'),
-(4, '2026-10-04', '19:10:42');
+-- INSERT INTO `humedad_ambiente` (`porcentaje`, `fecha`, `hora`) VALUES
+-- (4, '2026-10-04', '19:10:37'),
+-- (4, '2026-10-04', '19:10:42');
 
 -- --------------------------------------------------------
 
