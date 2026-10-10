@@ -1,6 +1,3 @@
-# Proyecto Escolar. Estacion Meteorologica (Lite) [conexión Wi-Fi con Arduino UNO]
-Proyecto Escolar acerca de una estación meteorologica usando tecnología Arduino, haciendo la obtención de parámetros meteorologicos que son enviados por Wi-Fi a una API para la visualización de datos capturados dirigidos a una página web que los registra a la base de datos
-
 Esta Estación Meteorologica (Lite) visualiza los datos recibidos haciendo uso de un conjunto de componentes conectados a Arduino Uno. 
 El proyecto escolar consistió en hacer una estación meteorologica sencilla usando un conjunto de componentes compatibles con tecnologia Arduino UNO, haciendo la recoleccion de datos con un mínimo de dos parametros, principalmente temperatura y humedas. Pero se continuo el desarrollo de el proyecto, y como resultado, se hizo mejoras y mas implentaciones dando solución a el desarrollo de software con interaccion Wi-Fi y Arduino UNO
 
