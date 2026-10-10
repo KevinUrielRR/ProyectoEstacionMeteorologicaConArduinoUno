@@ -1,9 +1,0 @@
-* text=auto eol=diff
-
-*.php diff=php
-*.css diff=css
-*.js diff=js
-*.html diff=html
-*.txt diff=txt
-*.sql diff=sql
-*.ino diff=ino
