@@ -12,12 +12,14 @@ ___
 | phpMyAdmin | Aplicación Web para la gestión de bases de datos | uso de exportación del archivo sql |
 
 
-** Figura 3.1. Descripción del software utilizado
+
 ___
 
 <br>
 
 ___
+
+
 | NOMBRE | registros_meteocs |
 | --- | --- |
 
@@ -32,5 +34,4 @@ ___
 | precipitacion | mm |
 | luz | cantidad |
 
-** Figura 3.2. características de la base de datos
 ___
