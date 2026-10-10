@@ -7,3 +7,5 @@
 *.txt diff=txt
 *.sql diff=sql
 *.ino diff=ino
+
+/.github export-ignore
