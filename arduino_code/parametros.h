@@ -1,22 +1,21 @@
+
 #include <DHT11.h>
 
 DHT11 sensor_dht11(2);
-
 
 
 int temperatura;
 int humedad_ambiente;
 int lector_dht11;
 
-void setup()
+void inicio_parametros_dht11()
 {
     Serial.print("METEOCS iniciando");
     Serial.begin(9600);
     sensor_dht11.setDelay(1);
-    
 }
 
-void loop()
+void load_dht11()
 {
     
     lector_dht11 = sensor_dht11.readTemperatureHumidity(temperatura,humedad_ambiente);
@@ -24,7 +23,10 @@ void loop()
     
     if (lector_dht11==0)
     {
-        Serial.println("temperatura: ",temperatura," °C");
+       // Serial.println("temperatura: ",temperatura," °C");
+        Serial.print("temperatura: ");
+        Serial.print(temperatura);
+        Serial.println(" °C");
         
         Serial.print("humedad ambiente: ");
         Serial.print(humedad_ambiente);
