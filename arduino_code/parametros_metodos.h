@@ -1,12 +1,6 @@
 
-#include <DHT11.h>
+#include "parametros_atributos.h"
 
-DHT11 sensor_dht11(2);
-
-
-int temperatura;
-int humedad_ambiente;
-int lector_dht11;
 
 void inicio_parametros_dht11()
 {

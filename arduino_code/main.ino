@@ -1,4 +1,4 @@
-#include "parametros.h"
+#include "parametros_metodos.h"
 
 void setup()
 {
