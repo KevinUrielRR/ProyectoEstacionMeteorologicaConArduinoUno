@@ -1,33 +1,6 @@
 Esta Estación Meteorologica (Lite) visualiza los datos recibidos haciendo uso de un conjunto de componentes conectados a Arduino Uno. 
 El proyecto escolar consistió en hacer una estación meteorologica sencilla usando un conjunto de componentes compatibles con tecnologia Arduino UNO, haciendo la recoleccion de datos con un mínimo de dos parametros, principalmente temperatura y humedas. Pero se continuo el desarrollo de el proyecto, y como resultado, se hizo mejoras y mas implentaciones dando solución a el desarrollo de software con interaccion Wi-Fi y Arduino UNO
 
-
-# | Desarrollo del Software |
-
-| Programacion |
-| --- |
-
-| Lenguaje de Programacion | Actividad |
-| --- | --- |
-| PHP | comunicacion con base de datos ; api |
-| SQL | base de datos |
-| HTML | vistas de pagina web |
-| Javascript | eventos ; creacion de ventanas |
-| CSS | estilos para el index |
-| C++ | codigo Arduino UNO |
-
-| Construcción de Sistema |
-| --- |
-
-| Titulo | lugar de codigo almacenado |
-| --- | --- |
-| interfaz grafica | gui.php |
-| api | api.php |
-| pantalla de inicio | index.php |
-| comunicacion con base de datos | database.php |
-
-<br><br>
-
 # | Hardware utilizado |
 
 | envio y recepcion de datos |
