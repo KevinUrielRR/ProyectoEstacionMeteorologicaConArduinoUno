@@ -7,7 +7,7 @@
 *.html diff=html
 *.txt diff=txt
 *.sql diff=sql
-*.ino diff=ino
+*.ino linguist-language=C++
 *.hack linguist-detectable=false
 
 /.github export-ignore
