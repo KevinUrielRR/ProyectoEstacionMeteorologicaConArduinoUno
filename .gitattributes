@@ -8,8 +8,8 @@
 *.txt diff=txt
 *.sql diff=sql
 *.ino linguist-language=C++
-*.hack linguist-detectable=false
+*.php linguist-language=php
 
 /.github export-ignore
-CHANGELOG.md export-ignore
-.styleci.yml export-ignore
+# CHANGELOG.md export-ignore
+# .styleci.yml export-ignore
