@@ -1,14 +1,12 @@
 * text=auto eol=lf
 
 *.md diff=markdown
-#*.php diff=php
 *.css diff=css
 *.js diff=js
 *.html diff=html
 *.txt diff=txt
 *.sql diff=sql
 *.ino linguist-language=C++
-#*.php linguist-language=php
 **/*.php linguist-language=PHP
 
 /.github export-ignore
