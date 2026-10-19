@@ -8,6 +8,9 @@
 *.sql diff=sql
 *.ino linguist-language=C++
 **/*.php linguist-language=PHP
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
+*.sql text
 
 /.github export-ignore
 CHANGELOG.md export-ignore
