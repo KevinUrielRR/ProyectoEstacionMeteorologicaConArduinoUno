@@ -1,3 +1,5 @@
 #include <DHT11.h>
+#include <SoftwareSerial.h>
 
-DHT11 sensor_dht11(2);
+
+
