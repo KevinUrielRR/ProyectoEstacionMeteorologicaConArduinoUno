@@ -1,10 +1,30 @@
+<?php
+include "../backend/configuracion.php";
 
+
+function create_button(){
+
+$db_on = fopen('../database/database_on.ini','r');
+$db = fread($db_on,128);
+
+$var = '<input id="checkbox_envio" name="envio" type="checkbox" />';
+//function load_bd_on()
+//{
+if ($db=="true") { return '<input id="checkbox_envio" name="envio" type="checkbox" checked />';echo"K"; }
+else { return '<input id="checkbox_envio" name="envio" type="checkbox" />'; echo"KU";}
+//}
+
+//load_bd_on();
+}
+
+create_button();
+
+//echo '
+?>
 <html>
 <body>
 
-
-
-<form>
+<form action="menu.php" method="post">
 <textarea disabled style="width:100%; height:35px; font-size:10px;">METEOCS
 MiniMeteorologica Estacion Transportable ElectronicoEmbebido con Opcion Controlado con Sistema por WiFi</textarea>
 <br>
@@ -36,13 +56,17 @@ MiniMeteorologica Estacion Transportable ElectronicoEmbebido con Opcion Controla
 <br>
 
 <p>BASE DE DATOS</p>
-<label for="envio">Enviar datos<label style="color:white;">_______</label></label><input id="checkbox_envio" name="envio" type="checkbox" />
+<label for="envio">Enviar datos<label style="color:white;">_______</label></label>
+
+<?php echo create_button(); ?>
+
+
 <br>
 <label for="nombre">Nombre</label><input id="text_nombre" name="nombre" type="text" />
 <br>
 <label for="tiempo">Tiempo</label><input id="text_tiempo" name="tiempo" type="text" />
 <br>
-<label for="cambios">Guardar cambios</label><input id="button_submit" name="cambios" type="submit" />
+<label for="cambios">Guardar cambios</label><input id="button_submit" name="cambios" type="submit" onclick="JavaScript:alert('√')"/>
 
 </form>
 
@@ -57,4 +81,9 @@ border: 1px black solid;
 </style>
 
 </body>
-</html me
+</html>
+';
+
+
+
+

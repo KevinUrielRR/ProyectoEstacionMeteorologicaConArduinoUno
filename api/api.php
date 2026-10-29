@@ -6,7 +6,7 @@ $database_on = fread($db_on,128);
 if ($database_on=="true")
 {
 include "../database/database.php";
-} else { echo "no hay configuracion"; }
+} else { echo "no hay configuracion"; echo x();}
 
 
 $fopen = fopen('datos_enviados/temperatura.txt','w');
@@ -46,25 +46,40 @@ function x()
 {
 
 
-$get_name = ['humedad_ambiente', 'luz', 'aire', 'presipitacion', 'humo'];
-$get_request = [$_GET['humedad_ambiente'], $_GET['luz'], $_GET['aire'], $_GET['presipitacion'], $_GET['humo']];
+$get_name = ['humedad_ambiente', 'luz', 'aire', 'presipitacion', 'humo','humedad_superficie','temperatura'];
+$get_request = [$_GET['humedad_ambiente'], $_GET['luz'],$_GET['aire'], $_GET['presipitacion'], $_GET['humo'],$_GET['humedad_superficie'], $_GET['temperatura']];
 ?>
 
 <textarea style="width:100%; height:100%;">
 <?php
-echo "datos {\n";
+echo "datos\n{\n";
+
+$parametro = [0,0,0,0,0,0,0];
 
 
-for($var = 0; $var <= 4; $var++)
+for($var = 0; $var <= 6; $var++)
 {
-echo "request [" . $var . "] { \n";
-echo "variable/dato:" . $get_name[$var] . ", resultado/valor: " . $get_request[$var] ."\n";
+
+
+if(!(empty($get_request[$var])))
+{
+$parametro[$var] = $get_request[$var];
+}else{ $parametro[$var] = "NULL"; }
+
+echo "\nrequest [" . $var . "]\n{";
+echo "\n    variable/dato:" . $get_name[$var] . ", resultado/valor: " . $parametro[$var] ."\n";
 echo "}\n";
+/*if (empty(get_request_print()))
+{
+break;
+}*/
+
 }
 
 
 
-echo "}";
+
+echo "\n}";
 ?>
 </textarea>
 <?php
