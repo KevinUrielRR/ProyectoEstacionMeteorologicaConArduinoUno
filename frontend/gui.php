@@ -20,6 +20,8 @@
 </div>
 -->
 
+<iframe id="menu" src="menu.php"></iframe>
+
 <link rel="stylesheet" href="id_div0.css"></link>
 <link rel="stylesheet" href="id_div1.css"></link>
 <link rel="stylesheet" href="id_div2.css"></link>
@@ -29,6 +31,7 @@
 <link rel="stylesheet" href="id_div6.css"></link>
 <link rel="stylesheet" href="id_div7.css"></link>
 <link rel="stylesheet" href="id_header.css"></link>
+<link rel="stylesheet" href="id_menu.css"></link>
 <link rel="stylesheet" href="tag_div.css"></link>
 <link rel="stylesheet" href="tag_button.css"></link>
 <link rel="stylesheet" href="tag_iframe.css"></link>
@@ -37,7 +40,6 @@
 <script type="text/javascript" src="../backend/script_var.js"></script>
 <script type="text/javascript" src="../backend/script_object_menu.js"></script>
 <script type="text/javascript" src="../backend/script_eventos.js"></script>
-
 
 </body>
 </html>

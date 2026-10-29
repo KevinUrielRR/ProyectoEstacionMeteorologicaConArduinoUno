@@ -70,20 +70,9 @@ MiniMeteorologica Estacion Transportable ElectronicoEmbebido con Opcion Controla
 
 </form>
 
-<style>
+<link rel="stylesheet" href="tag_form.css"></link>
 
-form {
-width: 500px;
-height: 500px;
-border: 1px black solid;
-}
-
-</style>
 
 </body>
 </html>
-';
-
-
-
 

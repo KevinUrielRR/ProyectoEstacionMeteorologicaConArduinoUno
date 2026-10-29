@@ -1,0 +1,10 @@
+#menu{
+position:absolute;
+//top:-100%;
+//left:-100%; 
+width: 700px;
+
+height: 700px;
+//transform: translate(500px,-50%);
+border: 1px black solid;
+}
